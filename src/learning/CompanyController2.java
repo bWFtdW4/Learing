@@ -8,8 +8,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import edu.damago.jdb.tool.ConsoleEventSource;
-import edu.damago.jdb.tool.JSON;
+import tools.ConsoleEventSource;
+import tools.JSON;
 
 
 /**

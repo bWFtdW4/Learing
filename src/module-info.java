@@ -5,4 +5,6 @@
  * @author Mamun
  *
  */
-module offline {}
+module offline {
+	requires java.desktop;
+	requires java.sql;}
