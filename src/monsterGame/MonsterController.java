@@ -465,12 +465,12 @@ public class MonsterController {
 
 
 	/**
-	 * Performs the TODO command.
+	 * 
 	 * @param parameterization the command parameterization, empty for none
 	 * @throws NullPointerException if the given parameterization is null
 	 */
 	public void performTodoCommand (final String parameterization) throws NullPointerException {
-		System.out.println("parameterization: " + parameterization); // TODO
+		System.out.println("parameterization: " + parameterization);
 	}
 
 

@@ -10,31 +10,28 @@ public class LinkBreaker {
 
 		String id = "";
 		List<String> idList = new ArrayList<>();
-		String[] links = { "https://www.wowhead.com/npc=27217/spirit-of-competition",
-			"https://www.wowhead.com/item=206268/ethereal-transmogrifier",
-			"https://www.wowhead.com/spell=302362/alabaster-thunderwing",
-			"https://www.wowhead.com/spell=302361/alabaster-stormtalon",
-			"https://www.wowhead.com/item=207821/ancestral-clefthoof",
-			"https://www.wowhead.com/item=190870/city-guard-heater-shield",
-			"https://www.wowhead.com/item=190871/grunts-buckler",
-			"https://www.wowhead.com/item=208040/queens-conservatory-ball-gloves",
-			"https://www.wowhead.com/item=208039/ember-court-soiree-gloves",
-			"https://www.wowhead.com/item=190576/ensemble-vagabonds-azure-threads",
-			"https://www.wowhead.com/item=190577/ensemble-wanderers-azure-trappings",
-			"https://www.wowhead.com/item=190851/ensemble-vagabonds-crimson-threads",
-			"https://www.wowhead.com/item=190850/ensemble-wanderers-crimson-trappings",
-			"https://www.wowhead.com/item=190071/azure-scalesworn-longbow",
-			"https://www.wowhead.com/item=190143/shard-of-frozen-secrets",
-			"https://www.wowhead.com/item=190812/azure-nexus-crescent",
-			"https://www.wowhead.com/item=190438/crimson-nexus-crescent",
-			"https://www.wowhead.com/item=207957/aquamarine-felfire-bulwark",
-			"https://www.wowhead.com/item=207959/aquamarine-felfire-splitblade",
-			"https://www.wowhead.com/item=190910/ruby-felfire-bulwark",
-			"https://www.wowhead.com/item=190909/ruby-felfire-splitblade",
-			"https://www.wowhead.com/item=95475/crown-of-eternal-winter",
-			"https://www.wowhead.com/item=97213/hood-of-hungering-darkness",
-			"https://www.wowhead.com/item=190078/blade-of-brutal-sacrifice",
-			"https://www.wowhead.com/item=189898/fury-of-the-firelord"
+		String[] links = { 
+			"https://www.wowhead.com/item=208176/plate-of-the-light-avenger",
+				"https://www.wowhead.com/item=208177/armaments-of-the-light-avenger",
+				"https://www.wowhead.com/item=208178/secrets-of-the-unnamed-cult",
+				"https://www.wowhead.com/item=208405/blood-onyx-uniform",
+				"https://www.wowhead.com/item=208179/blood-onyx-blades",
+				"https://www.wowhead.com/item=208045/slyvy",
+				"https://www.wowhead.com/item=190698/gently-used-cleaver",
+				"https://www.wowhead.com/item=190699/gorian-mining-pick",
+				"https://www.wowhead.com/item=189895/watchmans-flare",
+				"https://www.wowhead.com/item=206332/ensemble-wanderers-sunny-trappings",
+				"https://www.wowhead.com/item=206321/ensemble-vagabonds-sunny-threads",
+				"https://www.wowhead.com/item=208148/burgundy-cap",
+				"https://www.wowhead.com/item=208147/yellow-tweed-cap",
+				"https://www.wowhead.com/item=189882/dread-admirals-bicorne",
+				"https://www.wowhead.com/item=190144/irontide-raiders-bicorne",
+				"https://www.wowhead.com/item=190712/ancestral-skychaser-totem",
+				"https://www.wowhead.com/item=190693/ancestral-stonehoof-totem",
+				"https://www.wowhead.com/item=208423/homebrewers-sampling-crest",
+				"https://www.wowhead.com/item=190799/ensemble-swashbuckling-buccaneers-slops",
+				"https://www.wowhead.com/item=190155/trusty-treasure-trove",
+				"https://www.wowhead.com/item=208400/silks-of-the-unnamed-cult"
 		};
 
 		//loop for links
